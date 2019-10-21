@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+<meta name="viewport" content="width=device-width,inital-scale=1">
+<style>
+ul.breadcrumb {
+  border: black solid 2px;
+  height: 100%;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #af85b2;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+body {
+  font-family: serif;
+  color: white;
+  background-color: #af85b2
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index:1;
+  top: 10;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #af85b2;
+}
+
+.right {
+  right: 0;
+  background-color: #d24a88;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+<ul class="breadcrumb">
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="#">Math Department</a></li>
+  <li><a href="/jobs/index.html">Computer Science Department</a></li>
+  <li>Math Department</li>
+</ul>
+
+
+
+<div class="split left">
+  <div class="centered">
+
+    <h1>Isaac Newton</h1>
+<p> Sir Isaac Newton, was born on March 31, 1727 and lived till the age of 84 (March 20, 1726),
+  was a mathematician, physicist, astronomer, theologian, and author. Newton has made seminal contributions to
+  optics, and shares credit with Gottfried Wilhelm Leibniz for developing infinitesimal calculus.
+    <h2>Calculus</h2>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+
+    <h1>Florence Nightingale</h1>
+    <p> Florence Nightingale, was born on May 12, 1820 and lived till the age of 90 (August 13, 1910), was an english social reformer and
+      statistician, and the founder of modern nursing. She became a pioneer in the visual presentation of information and statisticals graphs.
+    <h2>Statistics</h2>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  </div>
+</div>
+
+</body>
+</html>
