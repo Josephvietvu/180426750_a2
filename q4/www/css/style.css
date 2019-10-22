@@ -158,7 +158,7 @@ footer {
   font-weight: bold;
 }
 
-@media(max-width: 768px){
+@media(max-width: 992px){
     header #branding,
     header nav li,
     #newsletter h1,
@@ -169,6 +169,29 @@ footer {
       width:100%
     }
   }
+@media(max-width: 768px){
+      header #branding,
+      header nav li,
+      #newsletter h1,
+      #newsletter form,
+      #boxes .box{
+        float: none;
+        text-align:center;
+        width:100%
+      }
+    }
+@media(max-width: 576px){
+          header #branding,
+          header nav li,
+          #newsletter h1,
+          #newsletter form,
+          #boxes .box{
+            float: none;
+            text-align:center;
+            width:100%
+          }
+        }
+
 
 header {
   padding-bottom:20px;
